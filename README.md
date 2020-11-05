@@ -1,70 +1,97 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+ <!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-In the project directory, you can run:
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Contact](#contact)
+- [Creator and Acknowledgements](#creator-and-acknowledgements)
 
-### `npm start`
+<h1> ## Employee Directory </h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  Receives and displays a table of employees on a User Database - this table can be searched by name and sorted by name and age
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  Screenshot of Project (Google Chrome): 
+  ![Screenshot](./Screen.PNG?raw=true)
 
-### `npm test`
+  Repo: https://github.com/Vetty88/Employee-Directory
+  Heroku Application: https://salty-temple-28552.herokuapp.com/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Video of app in action, see file: [Employee-Directory\Video.mp4](https://github.com/vetty88/Employee-Directory/blob/e4c3fa49f1a0cb0550bb2ebe7bdf32b26d466a35/Video.mp4)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
+To get a local copy up and running follow these simple steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow prompts to create a Node application also create a React application for testing then deploy to Github and Heroku
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Prerequisites
+This is an example of how to list things you need to use the software and how to install them.
 
-### `npm run eject`
+Installation-
+  Clone the repo
+    git clone https://github.com/Vetty88/Employee-Directory.git
+  Install NPM packages
+    npm install
+    npm inquirer
+    npm audit fix
+  Then open index.js file in console log and run
+    node index.js
+  You will be taken through a series of questions (user prompts) which will then lead to the generation of your new readme.md file!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project can be used for undefined. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+For more examples, please refer to the Documentation
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Regarding this project I respectfully make the following requests regarding contributions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+You are welcome to contribute
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Fork the Project
+  Create your Feature Branch 
+    (git checkout -b feature/AmazingFeature)
+  Commit your Changes 
+    (git commit -m 'Add some AmazingFeature')
+  Push to the Branch 
+    (git push origin feature/AmazingFeature)
+  Open a Pull Request
 
-### Analyzing the Bundle Size
+## Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+See the open issues for a list of proposed features (and known issues). Testing completed and any known issues include the following:
+ Testing completed in Google Chrome, React server (through Chrome) and the Heroku App. Several issues were found in Deploying this application. It is now deployed on Heroku
+ 
+## License
 
-### Making a Progressive Web App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
+Your Name - vetty88@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Project Link: https://github.com/Vetty88/Employee Directory
 
-### Deployment
+## Creator and Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Github User: Vetty88
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Yvette Waller 2020
+Credits Codebase Author: Monash University/Trilogy Education.
+
+Resources utilised to edit the code:
+
+Monash University ReadMe and Slide Materials Mozilla MDN WebDocs: https://developer.mozilla.org/en-US/ W3 Schools: https://www.w3schools.com/ Stack Overflow: https://www.stackoverflow.com/
+
+;
